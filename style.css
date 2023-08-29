@@ -1,7 +1,7 @@
 div{
     background-color: rgb(105, 123, 236);
     width: auto;
-    border: 2px solid rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
     padding: auto;
     margin: auto;
 
@@ -80,16 +80,19 @@ p{
 
 .farmer{
     color: sandybrown;
-    position: relative;
+    position: static;;
 }
 
 .cita{
     color:rgb(0, 255, 38);
-    position: relative;
+    position: static;
 }
 
 .alan{
+    top: 1380px;
     font-size: smaller;
+    position: absolute;
+
 }
 
 footer{
@@ -100,6 +103,8 @@ footer{
 .links{
     padding-top: 50px;
     font-size: 10px;
+    position: absolute;
+    
 }
 
 a{
@@ -108,6 +113,18 @@ a{
 }
 
 .copy{
-    padding-top: 50px;
-    font-size: 10px;
+    position: absolute;
+    font-size:x-small;
+    right: 150px;
+    bottom: -175%;
+
 }
+
+
+
+th, td{
+    padding: 30px;
+    border: solid;
+    position: left;
+}
+
