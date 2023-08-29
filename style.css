@@ -1,14 +1,113 @@
+div{
+    background-color: rgb(105, 123, 236);
+    width: auto;
+    border: 2px solid rgb(255, 0, 0);
+    padding: auto;
+    margin: auto;
+
+}
 body {
-    color: rgb(46, 4, 4);
-    background-color: rgb(187, 166, 166);
+    width: 90%;
+    margin: auto;
+    background-image: -webkit-image-set(url("./img/background\ 2.jpg"));
+    background: -webkit-radial-gradient(rgba(#1687ED), rgba(#010A13));
+    background-size: cover;
+    background-position: botton right;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;  
 }
 
 
 img {
-    width: 500px;
-    height: 300px;
+    width: 550px;
+    height: 400px;
+    margin: auto;
+    border: 3px solid;
+    position: center;
 }
 
 header {
-    color: red;
+    color: rgb(15, 20, 87);
+    width: 50%;
+    margin: auto;
+    font-size: 160%;
+    border-left: 3px  solid rgb(255, 2, 2);
+    border-right: 3px solid rgb(255, 2, 2);
+    padding: auto;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-size: 160%;
+    color: rgb(18, 17, 17);
+}
+
+i c
+
+q {
+    font-size: 160%;
+    border-left: 3px solid;
+    padding: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.3rem;
+    color:rgb(15, 20, 87);
+    text-align: auto;
+}
+
+h2{
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+
+p{
+    word-spacing: 1px;
+    font-size: 18px;
+    color: rgb(53, 51, 63);
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.farmer{
+    color: sandybrown;
+    position: relative;
+}
+
+.cita{
+    color:rgb(0, 255, 38);
+    position: relative;
+}
+
+.alan{
+    font-size: smaller;
+}
+
+footer{
+    padding-top: 50px;
+    font-size: 10px;
+}
+
+.links{
+    padding-top: 50px;
+    font-size: 10px;
+}
+
+a{
+    padding-top: 50px;
+    font-size: 10px;
+}
+
+.copy{
+    padding-top: 50px;
+    font-size: 10px;
 }
